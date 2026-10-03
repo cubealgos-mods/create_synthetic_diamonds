@@ -9,8 +9,8 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/synthetic-diamonds",
-    "sources": "https://git.cubealgos.de/cubealgos/create_synthetic_diamonds",
-    "issues": "https://github.com/cubealgos/create_synthetic_diamonds/issues"
+    "sources": "https://github.com/cubealgos-mods/create_synthetic_diamonds",
+    "issues": "https://github.com/cubealgos-mods/create_synthetic_diamonds/issues"
   },
   "license": "MIT",
   "environment": "*",
