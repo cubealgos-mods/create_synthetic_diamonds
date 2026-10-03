@@ -9,9 +9,9 @@ category: "create_synthetic_diamonds"
 | Item | Position |
 |---|---|
 | Version scheme | `<mod>+<mc>`, SemVer on the mod part over `contracts/public-surface.md`: `1.0.0+26.2` |
-| Branches | gitkontor's: `development`, `production`; releases are tags on `production` |
+| Branches | `development`, `production`; releases are tags on `production` |
 | Channels | Modrinth only; CurseForge deferred, as the three siblings |
-| CI | `just check` on every merge: lint, unit tests, game tests, by the Woodpecker file, live from the first push since the repo is public on Forgejo from the bootstrap (`https://git.cubealgos.de/cubealgos/create_synthetic_diamonds`, GitHub mirror `https://github.com/cubealgos/create_synthetic_diamonds`, which carries the public issue tracker) |
+| CI | None: `just check` is run locally before every merge: lint, unit tests, game tests. There is no CI service; the repository's home is GitHub (`https://github.com/cubealgos-mods/create_synthetic_diamonds`), which carries the public issue tracker. |
 | Always a playable build | `just client` boots with Create Fly at every merge, and a mechanical press fed charcoal, coal, or a coal block visibly presses it into a diamond, flint, or gunpowder given time (roughly a 240-tick/12-second cycle per input item) |
 | Support | Issue tracker only; no SLA; a `SUPPORT.md` says so |
 | Ports | A new Minecraft version is a new `+<mc>` build from a port branch; `AllRecipeTypes.PRESSING`'s continued existence and `MechanicalPressBlockEntity.getRecipe()`'s lookup mechanism are re-verified against both the new Minecraft jar and the tested Create Fly build on each port |

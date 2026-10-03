@@ -15,7 +15,7 @@ A distributed product carries the same obligations as its siblings, landing in d
 | Impressumspflicht | Attaches to a public web presence; there is none beyond the platform pages. Revisit if a site exists. |
 | Licence and notices | MIT (`decisions/DEC-003-licence.md`); `NOTICE` credits Create Fly (CC0), Create (MIT), Fabric (Apache-2.0). No Minecraft or Create Fly textures, models, or code are copied — the mod adds one recipe class and JSON data only. |
 | Supply chain and release integrity | Builds from a tagged commit with pinned dependencies; the release checksum is in the release notes; no signing at 1.0. |
-| Vulnerability disclosure | The public issue tracker only, on the GitHub mirror (`https://github.com/cubealgos/create_synthetic_diamonds/issues`); no private channel, no e-mail address published. Forgejo stays the source of truth for code. |
+| Vulnerability disclosure | The public issue tracker only, on GitHub (`https://github.com/cubealgos-mods/create_synthetic_diamonds/issues`); no private channel, no e-mail address published. GitHub is the home of the code. |
 | Server trust boundary | Every press cycle runs entirely server-side; there is no menu, no packet, and no client input anywhere in this mod's mechanism — the simplest trust boundary of any sibling so far, since there is no state and no client-facing surface for a client to influence at all. |
 | AI Act, GoBD, sector regulation | Not applicable: no AI component, no financial records, no regulated sector. |
 
