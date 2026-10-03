@@ -1,5 +1,0 @@
-${PullRequestTitle}
-
-${PullRequestDescription}
-
-${PullRequestReference}

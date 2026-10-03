@@ -107,7 +107,6 @@ def main() -> int:
         check_wrapper(),
         check_tool("just", "just", "--version"),
         check_tool("python3", "python", "--version"),
-        check_tool("kontor", None),
         check_map(),
     ]
     spec = check_spec_copy()
