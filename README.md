@@ -10,9 +10,9 @@ so this is a bit harder to automate than mining for diamonds early game.
 Requires Minecraft 26.2, Fabric Loader, Fabric API and Create Fly. MIT (LICENSE); credits in NOTICE.
 Releases carry the jar and its SHA-256 in the notes; see CHANGELOG.md for what each version holds.
 
-Support and security reports go through the issue tracker only (SUPPORT.md): https://github.com/cubealgos/create_synthetic_diamonds/issues.
+Support and security reports go through the issue tracker only (SUPPORT.md): https://github.com/cubealgos-mods/create_synthetic_diamonds/issues.
 
-Source: https://git.cubealgos.de/cubealgos/create_synthetic_diamonds (Forgejo, the home of this repository). Mirror: https://github.com/cubealgos/create_synthetic_diamonds, read-only code, and the issue tracker.
+Source: https://github.com/cubealgos-mods/create_synthetic_diamonds.
 Releases: https://modrinth.com/mod/synthetic-diamonds.
 
 Development: `just --list`. The specification is `docs/spec/`.

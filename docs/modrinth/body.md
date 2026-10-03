@@ -15,7 +15,7 @@
 | Game versions | 26.2 |
 | Dependencies | Create Fly (required), Fabric API (required) |
 | Icon | `icon.png` in this folder: the vanilla diamond item sprite on the cubealgos navy badge (`just icon` regenerates it, SD-6) |
-| Links | Source `https://github.com/cubealgos/create_synthetic_diamonds` · Issues `https://github.com/cubealgos/create_synthetic_diamonds/issues` · Origin `https://git.cubealgos.de/cubealgos/create_synthetic_diamonds` |
+| Links | Source `https://github.com/cubealgos-mods/create_synthetic_diamonds` · Issues `https://github.com/cubealgos-mods/create_synthetic_diamonds/issues` |
 
 ## Version settings
 
@@ -87,7 +87,7 @@ with; the mod declares exactly that version).
 
 ### Support
 
-Through the issue tracker only (https://github.com/cubealgos/create_synthetic_diamonds/issues),
-as time allows. Source on GitHub, mirrored from the cubealgos Forgejo. Include your Minecraft,
+Through the issue tracker only (https://github.com/cubealgos-mods/create_synthetic_diamonds/issues),
+as time allows. Source on GitHub. Include your Minecraft,
 Fabric and Create Fly versions, the mod version from the jar name, and the steps that show the
 problem. MIT licensed.

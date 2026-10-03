@@ -17,15 +17,17 @@ input into flint or gunpowder.
 | touch the weighted exclusive roll | `docs/spec/domains/roll.md`, `docs/spec/decisions/DEC-008-exclusive-roll-mechanism.md` |
 | touch the debug command or any player-facing surface | `docs/spec/domains/ui.md` |
 | add a dependency | `docs/spec/decisions/DEC-003-licence.md` (MIT) and heimathafen's dependency policy |
-| commit | scope `synthetic_diamonds`, the ticket key (`SD-N`) in the subject |
+| commit | scope `synthetic_diamonds`, the GitHub issue number in the subject, `(#N)`; old gitkontor keys (`SD-N`) stay valid in history |
 
 ## Working here
 
 ```
-kontor claim SD-N
-kontor branch new SD-N <slug>
+gh issue view N
+git switch -c <type>/N-<slug> origin/development
 just check
 ```
+
+Work is tracked in GitHub issues: one issue per change, one branch `<type>/N-<slug>` off `development`, one pull request per issue, plain merge. The `gitkontor/data` branch is the archive of the former ticket system (keys `SD-N`); it stays untouched and is no longer written to.
 
 `just --list` shows the task surface; `just spec-sync` refreshes `docs/spec/` from the vault; `just map` regenerates the map.
 
