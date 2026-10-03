@@ -82,7 +82,7 @@ appears.
 | Standard | Divergence | Recorded in |
 |---|---|---|
 | `standards/legal/default-license-apache-2-cla.md` | MIT, no CLA | `decisions/DEC-003-licence.md` |
-| "no remote unless justified later" | Public on Forgejo under `cubealgos` from the bootstrap, mirrored to GitHub with the issue tracker there, as all three siblings ended up | `decisions/DEC-003-licence.md` |
+| "no remote unless justified later" | Public on GitHub under `cubealgos-mods` with the issue tracker there (began on Forgejo under `cubealgos`; GitHub is the home since 2026-10-03), as all three siblings ended up | `decisions/DEC-003-licence.md` |
 | The three siblings' own "Create Fly: `<Name>`" Modrinth display-name pattern | This mod's listing is titled **"Create: Synthetic Diamonds"** instead — Kevin's own choice for this one, not an error to correct and not a naming-theme deviation needing further defense; see `decisions/DEC-002-name.md` | `decisions/DEC-002-name.md` |
 
 ## Decisions

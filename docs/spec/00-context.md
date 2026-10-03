@@ -32,7 +32,7 @@ to each of them applies here unchanged (`decisions/DEC-001-classification.md`).
 ## Business context
 
 No business model, no revenue, no telemetry. Published on Modrinth under MIT, source on the
-cubealgos Forgejo with a GitHub mirror and tracker, public from the first commit
+GitHub under `cubealgos-mods`, with the issue tracker there, public from the first commit
 (`decisions/DEC-003-licence.md`) — the same place the three siblings ended up.
 
 ## What it will not do
